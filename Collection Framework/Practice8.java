@@ -24,5 +24,18 @@ public class Practice8 {
         treeMap.put(3, "B");
         treeMap.put(2, "C");
         System.out.println(treeMap);
+
+        Integer a = 4;
+        System.out.println(a);
+
+        Character c = 'a';
+
+        StringBuilder d = new StringBuilder();
+        d.append("Bhanu");
+        System.out.println(d);
+
+        String b = "String";
+        String s = new String();
+        
     }
 }

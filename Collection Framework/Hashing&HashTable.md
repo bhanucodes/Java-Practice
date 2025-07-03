@@ -106,6 +106,10 @@ Here's your cleaned-up version of the commented section with all unnecessary `**
 
 ---
 
+
+
+#### -----------------------------------------------------------------------------------------------------------------------------------------
+
 ✅ What is a Hash Table in Java?
 
 > A hash table is a data structure that stores data in key-value pairs using a technique called hashing to make searching, inserting, and deleting operations very fast (almost O(1)).
