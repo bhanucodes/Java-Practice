@@ -36,7 +36,7 @@ class Student {
     }
 
     double avgMarks() {
-        return this.totalMarks() / studentCount;
+        return this.totalMarks() / 3;
     }
 
     static void totalAvgOfAll() {

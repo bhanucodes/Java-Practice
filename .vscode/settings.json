@@ -2,7 +2,9 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
         "Oops Java",
+        "Github/Chapter2",
+        "Github Training Modules/Assessment1",
         "Collection Framework",
-        "Github Training Modules/Assessment1"
+        "Exception"
     ]
 }
