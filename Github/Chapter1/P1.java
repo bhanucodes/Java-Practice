@@ -1,28 +1,6 @@
-package GithubTrainingModules.Java.Assignment1;
-import java.util.ArrayList;
-class CheckArmstronginRange {
-
-    public int[] armRange(int min, int max){
-        ArrayList<Integer> armList = new ArrayList<>();
-
-        for (int i=min; i<=max; i++){
-            if (armstrongCheck(i)) {
-                armList.add(i);
-            }
-        }
-
-        int [] armArray = new int[armList];
-
-        int i=0;
-        for(Integer e:armList){
-            armArray[i] = e;
-            i++;
-        }
-
-        return armArray;
-    }
 
 
+class CheckArmstrong {
     public static boolean armstrongCheck(int num){
 
         int n= num;
@@ -61,8 +39,8 @@ class CheckArmstronginRange {
     }
 }
 
-public class P2 {
+public class P1 {
     public static void main(String[] args) {
-        
+        System.out.println(CheckArmstrong.armstrongCheck(153));;
     }
 }
