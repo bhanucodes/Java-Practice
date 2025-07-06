@@ -1,26 +1,36 @@
+import java.util.ArrayList;
+
+// This code contains compliletime/static allocation
+// P42 contains the method of Runtime/dynamic allocation
+
 abstract class Persistence{
-    abstract void persist();
+    abstract String persist();
 }
 
 class FilePersistence extends Persistence{
     @Override
-    void persist() {
-        System.out.println("Saving to a file");
+    String persist() {
+        return "File is Persistance";
     }
 }
 
 class DatabasePersistence extends Persistence{
     @Override
-    void persist() {
-        System.out.println("Saving to Database");
+    String persist() {
+        return "Database is Persistence";
     }
 }
-public class P4 {
+
+public class P4{
     public static void main(String[] args) {
+
         
-        System.out.println(10/0);
-       
+        ArrayList<Persistence> obj = new ArrayList<>();
+        obj.add(new FilePersistence());
+        obj.add(new DatabasePersistence());
         
-       
+        for (Persistence e : obj) {
+            System.out.println(e.persist());
+        }
     }
 }
