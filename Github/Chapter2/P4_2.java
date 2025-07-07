@@ -18,7 +18,7 @@ class DatabasePersistence extends Persistence {
     }
 }
 
-public class P42 {
+public class P4_2 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
