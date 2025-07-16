@@ -36,7 +36,7 @@ class DateClass {
     }
 }
 
-public class Assignment3Q4 {
+public class Q4 {
 
     public static String getEmployee(HashMap<DateClass, String> dobMap, String employeeName) {
         int day = -1, month = -1, year = -1;
