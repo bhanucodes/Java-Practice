@@ -2,9 +2,11 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
         "Oops Java",
+        "Github/Chapter3",
         "Github/Chapter2",
         "Exception",
+        "Enums",
         "Collection Framework",
-        "Github/Chapter3"
+        "Misc Concepts"
     ]
 }
